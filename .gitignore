@@ -1,0 +1,34 @@
+# Training data — too many small files for Git; record locally using collect_data.py
+MP_Data/
+
+# TensorBoard logs
+Logs/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Model checkpoints during training (keep only final best_action.h5)
+action.h5
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+*.log
+*.tmp
